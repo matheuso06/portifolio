@@ -1,0 +1,332 @@
+  @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+:root {
+    --preto: #0A0908;
+    --branco: #49111C; 
+    --roxo: #F2F4F3; 
+
+    --fonte-um: 'Krona One', sans-serif;
+    --fonte-dois: 'Montserrat', sans-serif;
+    --fonte-tres: 'Raleway', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--preto);
+    color: var(--roxo);
+}
+
+.titulo-destaque {
+
+  color:var(--roxo);
+}
+
+.titulo_destaque {
+
+    color:var(--branco);
+  }
+
+strong {
+
+    color: var(--branco);
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 14%;
+    color: var(--roxo);
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+    color: var(--roxo);
+}
+
+.cabecalho__menu__link {    
+        font-weight: 600;
+        font-size: 1.5rem;
+        font-family: var(--fonte-dois);
+        text-decoration: none;
+        transition: 0.8s;
+        color: var(--roxo);
+}
+
+.cabecalho__menu__link:hover {
+    color: var(--branco);
+    transition: 0.8s;
+}
+
+.apresentacao {
+   padding: 3% 14%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-um);
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 1.5rem;
+    font-family: var(--fonte-dois);
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__texto {
+    font-weight: 400;
+    font-family: var(--fonte-um);
+    font-size: 1.5rem;
+}
+
+.apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    gap: 5px;
+    font-family: var(--poppins);
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: var(--branco);
+    font-family: var(--fonte-dois);
+    border: 2px groove var(--roxo);
+    transition: 0.8s;
+}
+
+.apresentacao__links__twitter {
+    width: 32px;
+    height: 32px;
+    padding-right: 16px;
+}
+
+.apresentacao__links__instagram {
+    width: 32px;
+    height: 32px;
+    padding-right: 16px;
+}
+
+.apresentacao__links__link:hover {
+    padding: 15px 25px;
+    background-color: var(--grey);
+    color: var(--branco);
+    transition: 0.8s;
+}
+
+.nome {
+    transition: 0.8s;
+    color: var(--roxo);
+    font-family: var(--fonte-tres);
+}
+
+.nome:hover {
+    padding: 15px 25px;
+    background-color: var(--grey);
+    color: var(--branco);
+    transition: 0.8s;
+}
+
+.apresentacao__imagem {
+    width: 50%;
+}
+
+
+.rodape {
+    padding: 24px;
+    color: var(--branco);
+    background-color: var(--roxo);
+    position: sticky; 
+    top: 100%;
+    text-align: center;
+    font-family: var(--fonte-dois);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.paragrafo__um {
+    font-size: 1.5rem;
+    font-family: var(--fonte-dois);
+    color: var(--branco);
+}
+
+.paragrafo__dois {
+    font-size: 1.5rem;
+    font-family: var(--fonte-dois);
+    color: var(--branco);
+}
+
+.paragrafo__tres {
+    font-size: 1.5rem;
+    font-family: var(--fonte-dois);
+    color: var(--branco);
+}
+
+.paragrafo__quatro {
+    font-size: 1.5rem;
+    font-family: var(--fonte-dois);
+    color: var(--branco);
+}
+
+.about {
+    padding: 3% 14%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__conteudo {
+    width: 615px;
+    display: flex;
+    gap: 21px;
+    flex-direction: column;
+}
+
+.about__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-um);
+    color: var(--branco);
+}
+
+.paragrafo__cinco {
+    font-size: 1.5rem;
+    font-family: var(--fonte-dois);
+    padding-bottom: 8%;
+    color: var(--roxo);
+}
+
+.vaca__dois {
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.curriculo {
+    padding: 4% 14%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.curriculo__conteudo {
+    width: 615px;
+    display: flex;
+    gap: 21px;
+    flex-direction: column;
+}
+
+.curriculo__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-um);
+    color: var(--roxo);
+}
+
+.curriculo__conteudo__texto {
+    font-size: 1.5rem;
+    font-family: var(--fonte-dois);
+    color: var(--branco);
+}
+
+.curriculo__conteudo__texto a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.link__curriculo__um {
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: var(--fonte-dois);
+    text-decoration: none;
+    transition: 0.8s;
+    color: var(--roxo);
+}
+
+.link__curriculo__um:hover {
+    color: var(--branco);
+    padding: 15px 25px;
+    transition: 1s;
+}
+
+.link__about {
+    color: var(--roxo);
+}
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+    
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5% ;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 5% ;
+    }
+
+    .about__conteudo {
+        width: auto;
+    }
+
+    .vaca__dois {
+        width: 100%;
+    }
+
+    .curriculo {
+        flex-direction: column;
+        padding: 5% ;
+    }
+
+    .curriculo__conteudo {
+        width: auto;
+    }
+}
